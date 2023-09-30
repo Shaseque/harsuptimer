@@ -1,0 +1,12 @@
+{
+  "port": "8000",
+  "name": "Hars Uptime",
+  "description": "Hars Uptime Botu Glitch ve Replit tabanlı botlarınızı 7/24 aktif eder. Hiçbir ücret talep etmez ve kesinti yaşatmaz ",
+  "invite": "https://discord.com/oauth2/authorize?scope=bot+applications.commands&client_id=1095707125004632204&permissions=37088600",
+  "support": "https://discord.gg/z5yGBHfZt2",
+  "pfp": "https://media.discordapp.net/attachments/1059845981480427612/1146408170248486982/IMG_1003.png",
+  "feature1": "3 adet botunuzu aktif edebilirsiniz. fazlası için premium satın alabilirsiniz",
+  "feature3": "7/24 botlarınızı aktif eder ve hiç kesinti sağlamaz ",
+  "feature4": "Projelerinizi aktif edemezseniz destek alabilirsiniz. ",
+"feature2": "Aktif ve ilgili destek ekibi"
+}
