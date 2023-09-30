@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="google-site-verification" content="GT7aizq-5egdO170wo-ltIKrtft74KRmEmNWhlRVkC8" />
+  <title><%= name %></title>
+  <meta name="title" content="<%= description %>">
+  <meta name="description" content="Hars Uptime Botu">
+  <link rel="shortcut icon" href="<%= pfp %>" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/images/hero-banner.png">
+</head>
+
+<body>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <h1 style="color:#FFFFFF;"><%= name %></h1>
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h2><%= name %></h2>
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="#" class="navbar-link">En başa git</a>
+          </li>
+          <li>
+            <a href="#service" class="navbar-link">Servisler</a>
+          </li>
+          <li>
+            <a href="#stat" class="navbar-link">İstatistikler</a>
+          </li>
+          <li>
+            <a href="#feature" class="navbar-link">Gelişimi</a>
+          </li>
+          <li>
+            <a href="/server" class="navbar-link">Destek sunucusu</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="btn-group">
+        <a href="<%= invite %>" class="btn btn-primary">Invite Bot</a>
+      </div>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="hero" aria-label="home">
+        <div class="container">
+          <div class="hero-banner">
+            <figure class="hero-banner">
+              <img src="<%= pfp %>" width="799" height="823" alt="hero banner" class="w-100">
+            </figure>
+          </div>
+          <div class="hero-content">
+            <h1 class="h1 hero-title">7/24 Uptime Botu</h1>
+            <p class="hero-text">
+              <%= description %>
+            </p>
+            <div class="btn-group">
+              <a href="/invite" class="btn btn-primary">Sunucuya Ekle/Add!</a>
+              <a href="#" class="play-btn">
+                <div class="icon">
+                  <ion-icon name="logo-discord" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span"><a href="/server"</a></span>Support server
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section promo" aria-label="promo">
+        <div class="container" id="service">
+          <h2 class="h2 section-title text-center">Hars Uptime Güvenilir mi?</h2>
+          <p class="section-text text-center">
+            Discord tarafından onaylanan botumuz son derece güvenlidir ve veri sızıntısı söz konusu değildir.
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="promo-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Hars Uptime Ücretsiz mi?</h3>
+                <p class="card-text">
+                  Botumuz hem 7/24 hemde ücretsiz uptime hizmeti sağlamaktadır. 3 adet bot ekleyebilirsiniz fazlası için premium satın alın.
+                </p>
+                <a href="https://discord.gg/z5yGBHfZt2" class="btn-link">
+                  <span class="span">Fazlası için</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="promo-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="cog-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Hars Uptime premium nasıl alınır?</h3>
+                <p class="card-text">
+                  Hars uptime premium almak için discord sunucumuzdaki fiyatlandırmalara bakarak istediğiniz paketi satın alın.
+                </p>
+                <a href="https://discord.gg/z5yGBHfZt2" class="btn-link">
+                  <span class="span">Discord Sunucusu</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="promo-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Düşme sorunu varmı?</h3>
+                <p class="card-text">
+                  Hars Uptime kaliteli bir vdsde tutulur ve yedek vdslere sahiptir. bu yüzden aktif olmama ihtimali %99dur
+                </p>
+                <a href="https://discord.gg/z5yGBHfZt2" class="btn-link">
+                  <span class="span">Destek Sunucusu</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="stats" aria-label="statistics">
+        <div class="container" id="stat">
+          <div class="stats-content">
+            <h2 class="h2 section-title">Uzun bir süredir hizmet veriyoruz</h2>
+            <p class="section-text">
+              Hars uptime ekibi oldukça uzun bir süre daha ayakta duracağız.
+            </p>
+            <p class="section-text">
+              Yüksek sunucu istatistiklerimiz ile her gün popülerleşiyoruz.
+            </p>
+            <ul class="stats-list">
+              <li>
+                <div class="stats-card bg-gray">
+                  <h3 class="h3 card-title">1M+</h3>
+                  <p class="card-text">
+                    Toplam kullancı
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="stats-card bg-gray">
+                  <h3 class="h3 card-title">3k+</h3>
+                  <p class="card-text">
+                    Toplam Sunucular
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="stats-card bg-gray">
+                  <h3 class="h3 card-title">16k+</h3>
+                  <p class="card-text">
+                    Mutlu Üye
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <figure class="stats-banner">
+            <img src="/images/stats-banner.png" width="797" height="454" alt="map" class="w-100">
+          </figure>
+        </div>
+      </section>
+      <section class="section instruction" aria-label="instruction">
+        <div class="container" id="feature">
+          <h2 class="h2 section-title text-center">Şuanki gelişimi</h2>
+          <p class="section-text text-center">
+            <%= name %>  hala geliştirilip yeni özelliklerle harmanlanıyor.
+          </p>
+          <ul class="grid-list">
+            <li>
+              <div class="instruction-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="musical-notes-sharp"></ion-icon>
+                </div>
+                <p class="card-text">
+                  <%= f1 %>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="instruction-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="hammer-sharp"></ion-icon>
+                </div>
+                <p class="card-text">
+                  <%= f2 %>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="instruction-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="happy-outline"></ion-icon>
+                </div>
+                <p class="card-text">
+                  <%= f3 %>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="instruction-card bg-gray">
+                <div class="card-icon">
+                  <ion-icon name="ticket-sharp"></ion-icon>
+                </div>
+                <p class="card-text">
+                  <%= f4 %>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="copyright">
+              Copyright Hars Uptime 2023. All rights reserved.
+            </p>
+            <ul class="footer-bottom-list">
+              <li>
+                <a href="#" class="footer-bottom-link">Support</a>
+              </li>
+              <li>
+                <a href="#" class="footer-bottom-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="/js/script.js" defer></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </article>
+  </main>
+</body>
+
+</html>
